@@ -1,0 +1,11 @@
+Description:
+    Oluwatobi 
+    This is a first test for cloudformation.
+
+Resources:
+
+    TobiVPC: 
+        Type: AWS::EC2::VPC
+        Properties:
+            CidrBlock: !Ref VpcCIDR
+            EnableDnsHostnames: true
